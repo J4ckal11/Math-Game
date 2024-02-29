@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <title>Math Game</title>
+    <a href="menu.html">
+      <button style="width: 85px; height:35px;">Menu</button>
+    </a>
+    <h1 style="text-align: center; font-size: 40px;">Choose your difficulty...</h1>
+    <a href="game.html">
+      <button id="easybtn" onclick = "localStorage.setItem('range', 10);"; class="centered" style="--width: 450px; --height: 100px; --top: 200px; font-size: 30px;">Easy</button>
+      <button id="mediumbtn" onclick = "localStorage.setItem('range', 100);"; class="centered" style="--width: 450px; --height: 100px; --top: 325px; font-size: 30px;">Medium</button>
+      <button id="hardbtn" onclick = "localStorage.setItem('range', 1000);"; class="centered" style="--width: 450px; --height: 100px; --top: 450px; font-size: 30px;">Hard</button>
+    </a>
+    <script src="script.js"></script>
+  </body>
+</html>
